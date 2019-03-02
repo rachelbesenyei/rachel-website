@@ -1,0 +1,22 @@
+body {
+        font-family: 'PT Serif', serif;
+        font-size: 28px;
+        text-align: center;
+      }
+
+
+header {
+  font-family: 'PT Serif', black;
+  font-size: 56px;
+  color: #fb9501;
+  text-align: center;
+  padding-top: 200px;
+
+}
+
+footer {
+  font-family: 'PT Serif', serif;
+  font-size: 12px;
+  text-align: center;
+  padding-top: 20px;
+}

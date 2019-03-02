@@ -2,13 +2,14 @@ body {
         font-family: 'PT Serif', serif;
         font-size: 28px;
         text-align: center;
+        color: #f48668;
       }
 
 
 header {
   font-family: 'PT Serif', black;
   font-size: 56px;
-  color: #fb9501;
+  color: #dd614a;
   text-align: center;
   padding-top: 200px;
 
@@ -20,3 +21,6 @@ footer {
   text-align: center;
   padding-top: 20px;
 }
+
+
+fb9501

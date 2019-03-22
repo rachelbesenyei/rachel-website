@@ -1,20 +1,52 @@
+@font-face {
+    font-family: 'anderson_groteskregular';
+    src: url('fonts/anderson-grotesk/andersongrotesk-webfont.woff2') format('woff2'),
+         url('fonts/anderson-grotesk/andersongrotesk-webfont.woff') format('woff');
+    font-weight: normal;
+    font-style: normal;
+}
+
+@font-face {
+    font-family: 'anderson_groteskblack';
+    src: url('fonts/anderson-grotesk/andersongrotesk-black-webfont.woff2') format('woff2'),
+         url('fonts/anderson-grotesk/andersongrotesk-black-webfont.woff') format('woff');
+    font-weight: normal;
+    font-style: normal;
+}
+
+@font-face {
+    font-family: 'anderson_groteskbold';
+    src: url('fonts/anderson-grotesk/andersongrotesk-bold-webfont.woff2') format('woff2'),
+         url('fonts/anderson-grotesk/andersongrotesk-bold-webfont.woff') format('woff');
+    font-weight: normal;
+    font-style: normal;
+}
+
+@font-face {
+    font-family: 'anderson_grotesklight';
+    src: url('fonts/anderson-grotesk/andersongrotesk-light-webfont.woff2') format('woff2'),
+         url('fonts/anderson-grotesk/andersongrotesk-light-webfont.woff') format('woff');
+    font-weight: normal;
+    font-style: normal;
+}
+
 header {
-  font-family: 'Playfair Display', bold;
-  font-size: 56px;
-  color: #D05A26;
+  font-family: 'anderson_groteskbold';
+  font-size: 36px;
+  color: #ff9b42;
   text-align: center;
   padding-top: 200px;
 }
 
 body {
-  font-family: 'Playfair Display', serif;
-  font-size: 28px;
+  font-family: 'anderson_grotesklight', serif;
+  font-size: 18px;
   text-align: center;
-  color: #D05A26;
+  color: #f7a072;
       }
 
 footer {
-  font-family: 'Playfair Display', serif;
+  font-family: 'anderson_groteskblack', serif;
   font-size: 12px;
   text-align: center;
   padding-top: 20px;

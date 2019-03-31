@@ -49,23 +49,24 @@
 header {
   font-family: 'anderson_groteskboldoblique';
   font-size: 40px;
-  color: #ff7733;
+  color: #292727;
   text-align: left;
-  padding-top: 200px;
+  padding-top: 230px;
 }
 
 body {
   font-family: 'anderson_grotesklightoblique', serif;
   font-size: 25px;
   text-align: left;
-  color: #f7a072;
+  padding-left: 50px;
+  color: #4e5f66;
       }
 
 footer {
-  font-family: 'anderson_groteskblack', serif;
+  font-family: 'anderson_grotesklightoblique', serif;
   font-size: 12px;
   text-align: left;
-  padding-top: 20px;
+  padding-top: 50px;
 }
 
 

@@ -69,6 +69,27 @@ body {
   position: fixed;
 }
 
+#navigation-left {
+  font-family: 'anderson_grotesklightoblique', serif;
+  font-size: 25px;
+  padding-left: 50px;
+  color: #292727;
+  text-align: left;
+  top: 50%;
+  position: fixed;
+}
+
+#navigation-right {
+  font-family: 'anderson_grotesklightoblique', serif;
+  font-size: 25px;
+  padding-right: 90px;
+  color: #292727;
+  text-align: right;
+  top: 50%;
+  right: 0;
+  position: fixed;
+}
+
 
 footer {
   font-family: 'anderson_grotesklightoblique', serif;

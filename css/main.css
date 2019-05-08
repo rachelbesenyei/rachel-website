@@ -46,15 +46,44 @@
     font-style: normal;
 }
 
-p {
+@font-face {
+    font-family: 'anderson_grotesklight';
+    src: url('fonts/anderson-grotesk/andersongrotesk-light-webfont.woff2') format('woff2'),
+         url('fonts/anderson-grotesk/andersongrotesk-light-webfont.woff') format('woff');
+    font-weight: normal;
+    font-style: normal;
+}
+
+.container {
   font-family: 'anderson_grotesklightoblique', serif;
   font-size: 25px;
   padding-top: 150px;
   padding-bottom: 0px;
-  padding-left: 220px;
-  padding-right: 220px;
+  padding-left: 20%;
+  padding-right: 20%;
   color: #0C3040;
   text-align: center;
+}
+
+.container2 {
+  font-family: 'anderson_grotesklight', serif;
+  font-size: 20px;
+  padding-top: 150px;
+  padding-bottom: 200px;
+  padding-left: 20%;
+  padding-right: 20%;
+  color: #0C3040;
+  text-align: left;
+}
+
+.logo {
+  height: auto;
+  width: 100%;
+  max-width: 550px;
+}
+
+p {
+
 }
 
 header {
@@ -63,6 +92,7 @@ header {
   padding-top: 30px;
   padding-bottom: 10px;
   color: #0C3040;
+  background-color: #f5bdac;
   text-align: center;
   top: 0;
   left: 0;
@@ -73,7 +103,6 @@ header {
 #navigation-left {
   font-family: 'anderson_grotesklightoblique', serif;
   font-size: 25px;
-  width: 220px;
   height: 100%;
   padding-left: 70px;
   color: #0C3040;
@@ -86,7 +115,6 @@ header {
 #navigation-right {
   font-family: 'anderson_grotesklightoblique', serif;
   font-size: 25px;
-  width: 220px;
   padding-right: 70px;
   color: #0C3040;
   text-align: right;
@@ -95,12 +123,22 @@ header {
   position: fixed;
 }
 
+.link{
+  color: #0C3040;
+}
+
+.link:hover {
+  color: #f66023;
+  font-family: "anderson_grotesklightoblique", serif;
+}
+
 footer {
   font-family: 'anderson_grotesklightoblique', serif;
-  font-size: 12px;
+  font-size: 25px;
   color: #0C3040;
-  padding-top: 100px;
-  padding-bottom: 30px;
+  background-color: #f5bdac;
+  padding-top: 15px;
+  padding-bottom: 20px;
   bottom: 0;
   left: 0;
   position: fixed;
